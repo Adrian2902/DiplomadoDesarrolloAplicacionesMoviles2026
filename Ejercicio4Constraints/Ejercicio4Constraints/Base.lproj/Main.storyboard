@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ejercicio4Constraints" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="eIi-op-0MG">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Estas en la pagina uno de la pantalla" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgO-a0-sxc">
+                                <rect key="frame" x="0.0" y="59" width="393" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Yl7-5e-pfQ">
+                                <rect key="frame" x="160" y="792" width="73" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="2lp-BU-LBa"/>
+                                    <constraint firstAttribute="height" constant="26" id="hIG-N7-qx9"/>
+                                </constraints>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwN-8c-tzU">
+                                <rect key="frame" x="342" y="408.66666666666669" width="51" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.right" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Yl7-5e-pfQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CBP-BD-FfN"/>
+                            <constraint firstAttribute="trailing" secondItem="jgO-a0-sxc" secondAttribute="trailing" id="GI1-Sa-CFI"/>
+                            <constraint firstItem="Yl7-5e-pfQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IQX-Bc-1IY"/>
+                            <constraint firstAttribute="trailing" secondItem="eIi-op-0MG" secondAttribute="trailing" id="O1M-jU-9Pt"/>
+                            <constraint firstItem="jgO-a0-sxc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QXW-ej-aLM"/>
+                            <constraint firstItem="jgO-a0-sxc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZaQ-p0-pJA"/>
+                            <constraint firstItem="pwN-8c-tzU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f7n-hk-RSL"/>
+                            <constraint firstAttribute="bottom" secondItem="eIi-op-0MG" secondAttribute="bottom" id="frL-AL-fxk"/>
+                            <constraint firstItem="eIi-op-0MG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iy9-n2-GM3"/>
+                            <constraint firstItem="pwN-8c-tzU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="mgu-ZR-DvI"/>
+                            <constraint firstItem="eIi-op-0MG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sxv-Sp-9Pi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26.717557251908396" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.right" catalog="system" width="128" height="104"/>
+        <image name="images" width="168" height="300"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
