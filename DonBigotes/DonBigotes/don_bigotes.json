@@ -1,0 +1,179 @@
+{
+  "store": {
+    "name": "Don Bigotes",
+    "slogan": "Donde tu mascota es el jefe 🐾",
+    "description": "Somos la cadena de tiendas para mascotas más querida de la Ciudad de México. Desde 2010 hemos dedicado nuestro corazón a consentir a los peluditos del hogar con los mejores productos, alimentos premium y accesorios de calidad. En Don Bigotes creemos que las mascotas no son solo animales, ¡son familia! Por eso nos esforzamos cada día en ofrecer el mejor servicio y los productos de la más alta calidad para que tu compañero de cuatro patas viva feliz y saludable.",
+    "logo_url": "https://placekitten.com/200/200",
+    "branches": [
+      {
+        "id": 1,
+        "name": "Don Bigotes Copilco",
+        "address": "Av. Copilco 123, Copilco Universidad, Coyoacán, CDMX",
+        "phone": "55 1234 5678",
+        "opening_hours": {
+          "weekdays": {
+            "open": "09:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "18:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        },
+        "location": {
+          "latitude": 19.3340,
+          "longitude": -99.1760
+        },
+        "services": ["Grooming", "Veterinario", "Alimentos Premium"]
+      },
+      {
+        "id": 2,
+        "name": "Don Bigotes Pedregal",
+        "address": "Av. de los Insurgentes Sur 3500, Pedregal de Santa Úrsula, Coyoacán, CDMX",
+        "phone": "55 2345 6789",
+        "opening_hours": {
+          "weekdays": {
+            "open": "08:00",
+            "close": "21:00"
+          },
+          "saturday": {
+            "open": "09:00",
+            "close": "19:00"
+          },
+          "sunday": {
+            "open": "10:00",
+            "close": "16:00"
+          }
+        },
+        "location": {
+          "latitude": 19.3180,
+          "longitude": -99.1680
+        },
+        "services": ["Alimentos", "Accesorios", "Juguetes", "Peceras"]
+      },
+      {
+        "id": 3,
+        "name": "Don Bigotes CU",
+        "address": "Av. Universidad 3000, Ciudad Universitaria, Coyoacán, CDMX",
+        "phone": "55 3456 7890",
+        "opening_hours": {
+          "weekdays": {
+            "open": "10:00",
+            "close": "19:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sunday": null
+        },
+        "location": {
+          "latitude": 19.3262,
+          "longitude": -99.1761
+        },
+        "services": ["Alimentos", "Veterinario", "Farmacia Veterinaria"]
+      },
+      {
+        "id": 4,
+        "name": "Don Bigotes Coyoacán Centro",
+        "address": "Francisco Sosa 45, Barrio Santa Catarina, Coyoacán, CDMX",
+        "phone": "55 4567 8901",
+        "opening_hours": {
+          "weekdays": {
+            "open": "09:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "09:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "10:00",
+            "close": "18:00"
+          }
+        },
+        "location": {
+          "latitude": 19.3467,
+          "longitude": -99.1620
+        },
+        "services": ["Grooming", "Alimentos", "Accesorios", "Hotel para Mascotas", "Guardería"]
+      },
+      {
+        "id": 5,
+        "name": "Don Bigotes San Ángel",
+        "address": "Av. Revolución 1235, San Ángel, Álvaro Obregón, CDMX",
+        "phone": "55 5678 9012",
+        "opening_hours": {
+          "weekdays": {
+            "open": "09:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "19:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "17:00"
+          }
+        },
+        "location": {
+          "latitude": 19.3470,
+          "longitude": -99.1930
+        },
+        "services": ["Grooming Premium", "Spa para Mascotas", "Alimentos Orgánicos", "Accesorios de Diseñador"]
+      },
+      {
+        "id": 6,
+        "name": "Don Bigotes Tlalpan",
+        "address": "Calzada de Tlalpan 1580, Portales, Benito Juárez, CDMX",
+        "phone": "55 6789 0123",
+        "opening_hours": {
+          "weekdays": {
+            "open": "08:00",
+            "close": "21:00"
+          },
+          "saturday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "sunday": null
+        },
+        "location": {
+          "latitude": 19.2890,
+          "longitude": -99.1670
+        },
+        "services": ["Veterinario 24 Horas", "Emergencias", "Alimentos", "Farmacia Veterinaria"]
+      },
+      {
+        "id": 7,
+        "name": "Don Bigotes Del Valle",
+        "address": "Av. Coyoacán 1435, Col. Del Valle Centro, Benito Juárez, CDMX",
+        "phone": "55 7890 1234",
+        "opening_hours": {
+          "weekdays": {
+            "open": "09:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "18:00"
+          },
+          "sunday": {
+            "open": "12:00",
+            "close": "16:00"
+          }
+        },
+        "location": {
+          "latitude": 19.3750,
+          "longitude": -99.1680
+        },
+        "services": ["Alimentos", "Juguetes", "Ropa para Mascotas", "Accesorios"]
+      }
+    ]
+  }
+}
